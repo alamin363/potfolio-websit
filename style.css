@@ -1,0 +1,28 @@
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  font-size: 50px;
+}
+section{
+  display: flex;
+}
+span{
+  color: yellow;
+}
+/* .top-baner{
+  background-image:url();
+} */
+.half-width{
+  width: 50%;
+}
+.half-width a{
+  text-decoration: none;
+  background: linear-gradient(orange,to);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.half-width img{
+  width: 80%;
+}
