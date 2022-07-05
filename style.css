@@ -5,8 +5,9 @@ body{
 h1{
   font-size: 50px;
 }
-section{
+.container{
   display: flex;
+  padding-bottom: 100px;
 }
 span{
   color: yellow;
@@ -16,13 +17,24 @@ span{
 } */
 .half-width{
   width: 50%;
+  margin-left: 20px;
+  
 }
 .half-width a{
   text-decoration: none;
-  background: linear-gradient(orange,to);
+  background: linear-gradient(orange,tomato);
   border-radius: 5px;
   padding: 10px 20px;
+
 }
 .half-width img{
   width: 80%;
+
+}
+.broder {
+  box-shadow: 5px 5px 5px 10px rgba(128, 128, 128, 0.273);
+  border-left: 5px solid green;
+}
+footer p{
+ text-align: center;
 }
